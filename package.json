@@ -1,0 +1,30 @@
+{
+  "name": "react-native-animate-router",
+  "version": "1.0.0",
+  "description": "React Native Animated Router",
+  "repository": "git@github.com:Jaroslav-Lesiv/react-native-animate-router.git",
+  "author": "Jaroslav Lesiv <jaroslav.webdeva@gmail.com>",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Jaroslav-Lesiv/react-native-animate-router/issues"
+  },
+  "homepage": "https://github.com/Jaroslav-Lesiv/react-native-animate-router#readme",
+  "devDependencies": {
+    "react": "^16.8.6",
+    "react-native": "^0.59.3",
+    "react-native-animatable": "^1.3.2",
+    "typescript": "^3.4.1"
+  },
+  "dependencies": {
+    "@types/react": "^16.8.10",
+    "@types/react-native": "^0.57.42",
+    "mobx": "^5.9.4",
+    "mobx-react": "^5.4.3"
+  }
+}

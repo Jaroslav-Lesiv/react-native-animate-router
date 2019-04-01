@@ -1,0 +1,1 @@
+{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../../../lib/withRouter/index.tsx"],"names":[],"mappings":"AAAA,OAAO,EAAoB,eAAe,EAAE,MAAM,YAAY,CAAC;AAC/D,OAAO,KAAK,MAAM,OAAO,CAAC;AAC1B,OAAO,EAAE,YAAY,EAAE,MAAM,OAAO,CAAC;AAErC,UAAU,SAAS;IAChB,WAAW,EAAE,YAAY,CAAA;CAC3B;AAED,QAAA,MAAM,UAAU;;;;;;;;;;;;;;;;;;;;;;;;;;;;qDAaf,CAAC;AAEF,eAAe,UAAU,CAAC"}
