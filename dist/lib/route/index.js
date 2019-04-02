@@ -152,7 +152,11 @@ var Route = /** @class */ (function (_super) {
         if (!this.state.isActive) {
             return null;
         }
-        return this.props.children;
+        return (react_1.default.createElement(Animatable.View
+        // for better perf always use native driver
+        , { 
+            // for better perf always use native driver
+            useNativeDriver: true, duration: this.props.duration, delay: this.props.delay, style: [react_native_1.StyleSheet.absoluteFill], animation: this.state.isActive ? this.props.animationIn : this.props.animationOut }, this.props.children));
     };
     Route.defaultProps = {
         delay: 0,

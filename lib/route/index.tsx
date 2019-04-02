@@ -166,7 +166,20 @@ class Route extends React.Component<IRouteComponentProps> {
     if (!this.state.isActive) {
       return null;
     }
-    return this.props.children;
+    return (
+      <Animatable.View
+        // for better perf always use native driver
+        useNativeDriver
+        duration={this.props.duration}
+        delay={this.props.delay}
+        style={[StyleSheet.absoluteFill]}
+        animation={
+          this.state.isActive ? this.props.animationIn : this.props.animationOut
+        }
+      >
+        {this.props.children}
+      </Animatable.View>
+    );
   }
 }
 
